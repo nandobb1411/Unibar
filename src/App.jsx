@@ -1,7 +1,7 @@
 
 import { useEffect , useState} from 'react';
 import './App.css';
-import Card from './Components/card.component';
+import CardList from './Components/Card-List/card-list.component';
 
 
 const App = () =>{
@@ -18,10 +18,8 @@ const App = () =>{
   return (
     <div className="App">
       <h1>Unibar</h1>
-      {drinks.map((drink) =>{
-        return <Card drink={drink}/>;
-      })}
-    </div>
+      <CardList drinks={drinks}/>
+      </div>
       
   );
 }

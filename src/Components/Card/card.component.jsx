@@ -7,8 +7,8 @@ const Card = ({drink}) => {
 
   return (
     <div className='drink-container' key={id}>
-        <img src={imageLink} alt={`foto da bebida ${name}`}/>
         <h2>{name}</h2>
+        <img src={imageLink} alt={`foto da bebida ${name}`}/>
         <p>{description}</p>
         <p>{graduacaoAlcoolica}</p>
     </div>
