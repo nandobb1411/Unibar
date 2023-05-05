@@ -17,6 +17,7 @@ const App = () =>{
 
   return (
     <div className="App">
+      <h1>Unibar</h1>
       {drinks.map((drink) =>{
         return <Card drink={drink}/>;
       })}
