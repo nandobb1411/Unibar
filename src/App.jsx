@@ -2,6 +2,7 @@
 import { useEffect , useState} from 'react';
 import './App.css';
 import CardList from './Components/Card-List/card-list.component';
+import NavBar from './Components/Navbar/NavBar.component';
 
 
 const App = () =>{
@@ -17,7 +18,7 @@ const App = () =>{
 
   return (
     <div className="App">
-      <h1>Unibar</h1>
+      <NavBar/>
       <CardList drinks={drinks}/>
       </div>
       

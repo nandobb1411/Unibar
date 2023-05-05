@@ -10,7 +10,7 @@ const Card = ({drink}) => {
         <h2>{name}</h2>
         <img src={imageLink} alt={`foto da bebida ${name}`}/>
         <p>{description}</p>
-        <p>{graduacaoAlcoolica}</p>
+        <p>Teor Alcoolico: {graduacaoAlcoolica}</p>
     </div>
   )
 }
